@@ -1,14 +1,14 @@
 
 import React from 'react';
-import TrainerCard from './components/TrainerCard';
-import PokemonCards from './components/PokemonCards';
+import Artists from './components/Artists';
+import Albums from './components/Albums';
 
 function App() {
   return (
     <main>
-      <h1>Personal Pokédex</h1>
-      <TrainerCard />
-      <PokemonCards />
+      <h1>Favourite Musicians!</h1>
+      <Artists />
+      <Albums />
     </main>
   );
 }
