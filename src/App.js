@@ -6,7 +6,7 @@ import Albums from './components/Albums';
 function App() {
   return (
     <main>
-      <h1>Favourite Musicians!</h1>
+      <h1>Music App</h1>
       <Artists />
       <Albums />
     </main>
