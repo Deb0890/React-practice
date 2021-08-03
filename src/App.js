@@ -1,15 +1,16 @@
 
-import React from 'react';
-import Artists from './components/Artists';
+import React, { useState } from 'react';
+import ArtistInfo from './components/Artist';
 import Albums from './components/Albums';
 
-function App() {
+const App = () => {
+
   return (
-    <main>
-      <h1>Music App</h1>
-      <Artists />
+    <>
+      <ArtistInfo />
       <Albums />
-    </main>
+    </>
+
   );
 }
 
